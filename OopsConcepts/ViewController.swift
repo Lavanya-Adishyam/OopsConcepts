@@ -13,8 +13,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let cal = Calculate()
+        cal.add(a: 5, b: 2)
+        cal.add(a: 1, b: 3, c: 2)
+        cal.add(a: 2.2, b: 3)
+        
     }
-
+    //Polymorphism/OverLoading
+    class Calculate{
+        func add(a:Int, b:Int){
+            print(a + b)
+        }
+        func add(a:Float, b:Float){
+            print(a + b)
+        }
+        func add(a:Float, b:Int){
+            print(a + Float(b))
+        }
+        func add(a:Int, b:Int, c:Int){
+            print(a + b + c)
+        }
+    }
 
 }
 
