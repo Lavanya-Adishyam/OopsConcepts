@@ -7,3 +7,18 @@
 //
 
 import Foundation
+//Polymorphism/OverLoading
+class Calculate{
+    func add(a:Int, b:Int){
+        print(a + b)
+    }
+    func add(a:Float, b:Float){
+        print(a + b)
+    }
+    func add(a:Float, b:Int){
+        print(a + Float(b))
+    }
+    func add(a:Int, b:Int, c:Int){
+        print(a + b + c)
+    }
+}
