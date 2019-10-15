@@ -15,6 +15,7 @@
 		BF1F06432355C87D002C6707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1F06412355C87D002C6707 /* LaunchScreen.storyboard */; };
 		BF1F064E2355C87D002C6707 /* OopsConceptsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F064D2355C87D002C6707 /* OopsConceptsTests.swift */; };
 		BF1F06592355C87D002C6707 /* OopsConceptsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F06582355C87D002C6707 /* OopsConceptsUITests.swift */; };
+		BF1F06672355CCC5002C6707 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F06662355CCC5002C6707 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF1F06542355C87D002C6707 /* OopsConceptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OopsConceptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1F06582355C87D002C6707 /* OopsConceptsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OopsConceptsUITests.swift; sourceTree = "<group>"; };
 		BF1F065A2355C87D002C6707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1F06662355CCC5002C6707 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BF1F06352355C87D002C6707 /* AppDelegate.swift */,
 				BF1F06372355C87D002C6707 /* ViewController.swift */,
+				BF1F06662355CCC5002C6707 /* SecondVC.swift */,
 				BF1F06392355C87D002C6707 /* Main.storyboard */,
 				BF1F063F2355C87D002C6707 /* Assets.xcassets */,
 				BF1F06412355C87D002C6707 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				BF1F06382355C87D002C6707 /* ViewController.swift in Sources */,
 				BF1F06362355C87D002C6707 /* AppDelegate.swift in Sources */,
+				BF1F06672355CCC5002C6707 /* SecondVC.swift in Sources */,
 				BF1F063E2355C87D002C6707 /* OopsConcepts.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
