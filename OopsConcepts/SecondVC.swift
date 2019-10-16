@@ -22,3 +22,9 @@ class Calculate{
         print(a + b + c)
     }
 }
+
+class Result{
+    func sub(a:Int, b:Int){
+        print(a - b)
+    }
+}
